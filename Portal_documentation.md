@@ -43,13 +43,8 @@
    
    - **Phân quyền theo chức vụ của nhân viên**: sẽ phải phân định ra doanh nghiệp có những chức vụ gì (ví dụ: Super Admin, Admin, Mentor, Staff) => Mỗi chức vụ sẽ được set mặc định quyền truy cập vào các module có sẵn => Mỗi account chỉ cần tick vào chức vụ của mình là sẽ có quyền truy cập vào tất cả module đã set cho chức vụ đó.
 
-2. Do hiện tại Portal đã integrate các API của LMS và để chạy được 2 ứng dụng cho cả 2 máy rất resource-intensive 
-   
-   => Develop một server nodejs nhẹ để mock test API (hoàn thành).
-   
-   => Cần tài liệu API specification của LMS để có thể mock response cho server nodejs
 
-3. Xác định những nội dung cần đồng bộ và nội dung không cần đồng bộ với LMS để Portal có thể viết các API để LMS gọi vào và ngược lại.
+2. Xác định những nội dung cần đồng bộ và nội dung không cần đồng bộ với LMS để Portal có thể viết các API để LMS gọi vào và ngược lại.
    
    Ví dụ: 
    
@@ -64,5 +59,3 @@
    - API enroll / unenroll cho business student và individual student
    
    - .... Cần suy nghĩ thêm về nghiệp vụ sẽ gặp
-
-4. Hiện tại api-key của Sendgrid đang được hard code ở môi trường local => Cần phải store api-key này ở nơi khác
