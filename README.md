@@ -20,6 +20,8 @@
      - Khởi tạo một module
      - Giải thích về ORM và các abstraction của Odoo
 
+**Chi tiết: [TẠI ĐÂY](./odoo/odoo_docs/TOC.md)
+
 4. [Tài liệu kỹ thuật Portal](./odoo/4.Portal_techincal.md)
    
    - Hướng dẫn cài đặt Odoo và các module cho Portal

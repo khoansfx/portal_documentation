@@ -38,3 +38,6 @@ Odoo applications are structured into three distinct tiers:
 - **Full Backup:** To create a full backup of an Odoo instance, it is necessary to have both:
   - A database dump
   - A copy of the filestore
+
+[Part 1]
+Part 2
